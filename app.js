@@ -243,7 +243,7 @@ function renderResults() {
   const rate = Math.round((total / max) * 100);
   app.innerHTML = `<div class="shell">
     <section class="score-hero">
-      <div class="score-top"><div><p class="eyebrow">Ripasso completato · Modulo 1</p><h1>🎉 恭喜你完成了本次复习！</h1><p>你已经完成了 B1 Modulo 1 中关于情绪表达、固定搭配和地道反应的复习。</p></div><div class="score-ring"><div><strong>${rate}%</strong><small>第一次正确率</small></div></div></div>
+      <div class="score-top"><div><p class="eyebrow">Ripasso completato · Modulo 1</p><h1>🎉 恭喜你完成了本次复习！</h1><p>你已经完成了 B1 Modulo 1 中关于情绪表达、固定搭配和地道反应的复习。</p></div><div class="score-ring"><div><strong>${rate}%</strong><small>本次练习结果</small></div></div></div>
     </section>
     <section class="completion-stats" aria-label="总体完成情况">
       <article><span>总题数</span><strong>${max}</strong></article>
